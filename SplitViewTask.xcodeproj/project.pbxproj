@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E66CC08D20882B940020CC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CC08C20882B940020CC9F /* AppDelegate.swift */; };
-		E66CC08F20882B940020CC9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CC08E20882B940020CC9F /* ViewController.swift */; };
 		E66CC09220882B940020CC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66CC09020882B940020CC9F /* Main.storyboard */; };
 		E66CC09420882B940020CC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66CC09320882B940020CC9F /* Assets.xcassets */; };
 		E66CC09720882B940020CC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66CC09520882B940020CC9F /* LaunchScreen.storyboard */; };
+		E66CC09F208830670020CC9F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CC09E208830670020CC9F /* MasterViewController.swift */; };
+		E66CC0A1208830C40020CC9F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CC0A0208830C40020CC9F /* DetailViewController.swift */; };
+		E66CC0A320884AEB0020CC9F /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CC0A220884AEB0020CC9F /* Lists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E66CC08920882B940020CC9F /* SplitViewTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66CC08C20882B940020CC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E66CC08E20882B940020CC9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E66CC09120882B940020CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E66CC09320882B940020CC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66CC09620882B940020CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E66CC09820882B940020CC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66CC09E208830670020CC9F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E66CC0A0208830C40020CC9F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E66CC0A220884AEB0020CC9F /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E66CC08C20882B940020CC9F /* AppDelegate.swift */,
-				E66CC08E20882B940020CC9F /* ViewController.swift */,
 				E66CC09020882B940020CC9F /* Main.storyboard */,
+				E66CC0A220884AEB0020CC9F /* Lists.swift */,
+				E66CC09E208830670020CC9F /* MasterViewController.swift */,
+				E66CC0A0208830C40020CC9F /* DetailViewController.swift */,
 				E66CC09320882B940020CC9F /* Assets.xcassets */,
 				E66CC09520882B940020CC9F /* LaunchScreen.storyboard */,
 				E66CC09820882B940020CC9F /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66CC08F20882B940020CC9F /* ViewController.swift in Sources */,
+				E66CC0A1208830C40020CC9F /* DetailViewController.swift in Sources */,
+				E66CC09F208830670020CC9F /* MasterViewController.swift in Sources */,
 				E66CC08D20882B940020CC9F /* AppDelegate.swift in Sources */,
+				E66CC0A320884AEB0020CC9F /* Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
